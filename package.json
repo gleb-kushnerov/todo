@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^4.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleb-kushnerov/todo.git"
+  },
+  "author": "Gleb <kushnerov07@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleb-kushnerov/todo/issues"
+  },
+  "homepage": "https://github.com/gleb-kushnerov/todo#readme"
+}
