@@ -5,6 +5,24 @@
     <title>Todo</title>
 </head>
 <body>
-<h1>hello world</h1>
+
+<h1 class="heading">Todos</h1>
+<section class="container" id="container">
+    <header>
+        <input class="input-field" type="text" placeholder="What needs to be done?" data-input>
+    </header>
+    <section class="todo-wrapper" data-wrapper>
+    </section>
+    <footer class="hidden footer" data-footer>
+        <div class="quantity" data-quantity></div>
+        <div class="sort-block" data-sort-block>
+            <button class="btn" data-sort-btn data-sort-type="all">All</button>
+            <button class="btn" data-sort-btn data-sort-type="active">Active</button>
+            <button class="btn" data-sort-btn data-sort-type="completed">Completed</button>
+        </div>
+        <button class="btn -hidden" data-delete-completed-btn>Clear completed</button>
+    </footer>
+</section>
+
 </body>
 </html>
